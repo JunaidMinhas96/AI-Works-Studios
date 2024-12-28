@@ -26,6 +26,166 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+      /* General styles for the slider section */
+.slider_section {
+padding: 20px 0;
+}
+
+.slider_section .detail-box h1 {
+font-size: 2rem;
+}
+
+.slider_section .p-main {
+font-size: 1rem;
+}
+
+.slider_section .btn1 {
+font-size: 0.9rem;
+padding: 10px 20px;
+}
+
+.slider_section .img-box img {
+max-width: 100%;
+height: auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 991px) {
+.slider_section .detail-box h1 {
+ font-size: 1.8rem;
+}
+
+.slider_section .p-main {
+ font-size: 0.9rem;
+}
+
+.slider_section .btn1 {
+ font-size: 0.8rem;
+}
+}
+
+@media (max-width: 767px) {
+.carousel .row {
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+.carousel .col-md-6 {
+ max-width: 100%;
+ flex: 0 0 100%;
+}
+
+.slider_section .detail-box h1 {
+ font-size: 1.5rem;
+}
+
+.slider_section .p-main {
+ font-size: 0.85rem;
+}
+
+.slider_section .btn1 {
+ font-size: 0.8rem;
+ padding: 8px 16px;
+}
+
+.slider_section .img-box {
+ margin-top: 20px;
+}
+}
+
+@media (max-width: 575px) {
+.slider_section .detail-box h1 {
+ font-size: 1.2rem;
+}
+
+.slider_section .p-main {
+ font-size: 0.8rem;
+}
+
+.slider_section .btn1 {
+ font-size: 0.7rem;
+ padding: 6px 12px;
+}
+}
+
+   .about_section {
+     background-image: url("images/ai-servies.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   .about_section::before {
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.5); 
+   }
+
+       .why_section {
+         background-image: url("images/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg");
+         background-size: cover; /* Ensures the image covers the entire section */
+         background-position: center; /* Centers the image both vertically and horizontally */
+         background-attachment: fixed; /* Keeps the image fixed while scrolling */
+         background-color: rgba(
+           255,
+           255,
+           255,
+           0.6
+         ); /* Light background with reduced opacity */
+         padding: 80px 0; /* Adjust padding for spacing */
+       }
+
+       .why_section .heading_container {
+         color: white; /* Adjust heading color to be readable over the image */
+       }
+
+       .why_section .box {
+         padding: 5px 3px;
+         background-color: rgba(
+           255,
+           255,
+           255,
+           0.9
+         ); /* Semi-transparent white background for content boxes */
+         border-radius: 8px;
+         overflow: hidden;
+         margin-bottom: 30px;
+       }
+
+       .service_section {
+         background-image: url("images/Ai.jpg");
+         background-size: cover; /* Ensures the image covers the entire section */
+         background-position: center; /* Centers the image both vertically and horizontally */
+         background-attachment: fixed; /* Keeps the image fixed while scrolling */
+         background-color: rgba(
+           255,
+           255,
+           255,
+           0.6
+         ); /* Light background with reduced opacity */
+         padding: 80px 0; /* Adjust padding for spacing */
+       }
+
+       .service_section .heading_container {
+         color: white; /* Adjust heading color to be readable over the image */
+       }
+
+       .service_section .box {
+         background-color: rgba(
+           255,
+           255,
+           255,
+           0.8
+         ); /* Semi-transparent white background for content boxes */
+         border-radius: 8px;
+         overflow: hidden;
+         margin-bottom: 30px;
+       }
+      
+     </style>
   </head>
   <body>
     <div class="hero_area">
@@ -84,169 +244,7 @@
             </div>
           </nav>
         </div>
-        <style>
-         /* General styles for the slider section */
-.slider_section {
-  padding: 20px 0;
-}
-
-.slider_section .detail-box h1 {
-  font-size: 2rem;
-}
-
-.slider_section .p-main {
-  font-size: 1rem;
-}
-
-.slider_section .btn1 {
-  font-size: 0.9rem;
-  padding: 10px 20px;
-}
-
-.slider_section .img-box img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 991px) {
-  .slider_section .detail-box h1 {
-    font-size: 1.8rem;
-  }
-
-  .slider_section .p-main {
-    font-size: 0.9rem;
-  }
-
-  .slider_section .btn1 {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .carousel .row {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .carousel .col-md-6 {
-    max-width: 100%;
-    flex: 0 0 100%;
-  }
-
-  .slider_section .detail-box h1 {
-    font-size: 1.5rem;
-  }
-
-  .slider_section .p-main {
-    font-size: 0.85rem;
-  }
-
-  .slider_section .btn1 {
-    font-size: 0.8rem;
-    padding: 8px 16px;
-  }
-
-  .slider_section .img-box {
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 575px) {
-  .slider_section .detail-box h1 {
-    font-size: 1.2rem;
-  }
-
-  .slider_section .p-main {
-    font-size: 0.8rem;
-  }
-
-  .slider_section .btn1 {
-    font-size: 0.7rem;
-    padding: 6px 12px;
-  }
-}
-
-      .about_section {
-        background-image: url("images/ai-servies.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-      .about_section::before {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5); 
-      }
-
-          .why_section {
-            background-image: url("images/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg");
-            background-size: cover; /* Ensures the image covers the entire section */
-            background-position: center; /* Centers the image both vertically and horizontally */
-            background-attachment: fixed; /* Keeps the image fixed while scrolling */
-            background-color: rgba(
-              255,
-              255,
-              255,
-              0.6
-            ); /* Light background with reduced opacity */
-            padding: 80px 0; /* Adjust padding for spacing */
-          }
-
-          .why_section .heading_container {
-            color: white; /* Adjust heading color to be readable over the image */
-          }
-
-          .why_section .box {
-            padding: 5px 3px;
-            background-color: rgba(
-              255,
-              255,
-              255,
-              0.9
-            ); /* Semi-transparent white background for content boxes */
-            border-radius: 8px;
-            overflow: hidden;
-            margin-bottom: 30px;
-          }
-
-          .service_section {
-            background-image: url("images/Ai.jpg");
-            background-size: cover; /* Ensures the image covers the entire section */
-            background-position: center; /* Centers the image both vertically and horizontally */
-            background-attachment: fixed; /* Keeps the image fixed while scrolling */
-            background-color: rgba(
-              255,
-              255,
-              255,
-              0.6
-            ); /* Light background with reduced opacity */
-            padding: 80px 0; /* Adjust padding for spacing */
-          }
-
-          .service_section .heading_container {
-            color: white; /* Adjust heading color to be readable over the image */
-          }
-
-          .service_section .box {
-            background-color: rgba(
-              255,
-              255,
-              255,
-              0.8
-            ); /* Semi-transparent white background for content boxes */
-            border-radius: 8px;
-            overflow: hidden;
-            margin-bottom: 30px;
-          }
-          .h2-cutomers{
-            color: white;
-          }
-       
-        </style>
+ 
       </header>
       <section class="slider_section">
         <div id="customCarousel1" class="carousel slide" data-ride="carousel">
@@ -261,12 +259,13 @@
                         AI Works Studios
                       </h1>
                       <p class="p-main">
-                        Welcome to AI Works Studios, where innovation meets excellence! We are a
-                        cutting-edge software house dedicated to transforming ideas into reality
-                        through state-of-the-art artificial intelligence solutions. Our team of
-                        experts is passionate about leveraging the power of AI to drive your business
-                        forward, ensuring you stay ahead in today’s rapidly evolving digital
-                        landscape.
+                        Welcome to AI Works Studios, where innovation meets
+                        excellence! We are a cutting-edge software house
+                        dedicated to transforming ideas into reality through
+                        state-of-the-art artificial intelligence solutions. Our
+                        team of experts is passionate about leveraging the power
+                        of AI to drive your business forward, ensuring you stay
+                        ahead in today’s rapidly evolving digital landscape..
                       </p>
                       <div class="btn-box">
                         <a href="" class="btn1"> Read More </a>
@@ -281,10 +280,86 @@
                 </div>
               </div>
             </div>
+            <!-- <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        Welcome <br />
+                        AI Works Studios
+                      </h1>
+                      <p class="p-main">
+                        At AI Works Studios, we are dedicated to delivering
+                        top-notch AI solutions, web development, mobile app
+                        development, and digital marketing services. Our team of
+                        experts works tirelessly to turn your ideas into reality
+                        using cutting-edge technology and innovative strategies.
+                        We pride ourselves on our commitment to excellence,
+                        integrity, and collaboration. Partner with us and let's
+                        shape the future together.
+                      </p>
+                      <div class="btn-box">
+                        <a href="" class="btn1"> Read More </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/AI.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        Welcome <br />
+                        AI Works Studios
+                      </h1>
+                      <p class="p-main">
+                        At AI Works Studios, we excel in AI solutions, web
+                        development, mobile app development, and digital
+                        marketing. Our dedicated team of top programmers and
+                        industry experts delivers innovative and effective
+                        solutions tailored to your needs. With a focus on
+                        excellence and impactful results, we ensure every
+                        project drives your success and sets you apart in the
+                        digital landscape.
+                      </p>
+                      <div class="btn-box">
+                        <a href="" class="btn1"> Read More </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img
+                        src="images/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
           </div>
+          <!-- <ol class="carousel-indicators">
+            <li
+              data-target="#customCarousel1"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#customCarousel1" data-slide-to="1"></li>
+            <li data-target="#customCarousel1" data-slide-to="2"></li>
+          </ol> -->
         </div>
       </section>
-      
+    </div>
 
 
 
@@ -295,7 +370,7 @@
         <div class="container">
           <div class="heading_container heading_center">
             <h2>Our <span>Services</span></h2>
-            <p>
+            <p class="p-main">
               At AI Works Studios, we provide cutting-edge solutions tailored to
               your business needs, ensuring quality and innovation.
             </p>
@@ -751,7 +826,7 @@
     <section class="client_section layout_padding">
       <div class="container">
         <div class="heading_container heading_center psudo_white_primary mb_45">
-          <h2 class="h2-cutomers">What says our <span>Customers</span></h2>
+          <h2>What says our <span>Customers</span></h2>
         </div>
         <div class="carousel-wrap">
           <div class="owl-carousel client_owl-carousel">
